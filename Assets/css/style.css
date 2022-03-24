@@ -36,6 +36,10 @@ h1 {
     font-size: 200%;
 }
 
+.flexSection {
+    display: flex;
+    flex-direction: row;
+}
 .subtitle {
 
 }
