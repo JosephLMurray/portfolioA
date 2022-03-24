@@ -1,3 +1,7 @@
 * {
-    
+    font-family: Helvetica, sans-serif;
+}
+.colorInvert {
+    color: rgb(102, 166, 196);
+    background-color: rgb(45, 45, 58);
 }
