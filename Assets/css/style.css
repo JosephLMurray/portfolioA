@@ -2,16 +2,27 @@
     font-family: Helvetica, sans-serif;
 }
 
+.container {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
 a {
     font-weight: bold;
     color: rgb(102, 166, 196);
     border-bottom: 3px;
     padding: 20px;
 }
-nav {
-       display: flex;
-       flex-flow: row flex-end;
 
+p {
+    text
+}
+nav {
+    display: flex;
+    flex-flow: row flex-end;
 }
 
 li {
@@ -24,8 +35,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 1% 1% 0 1%;
-    height: 50px;
+    height: 5vh;
+    margin-left: 0;
     background-color: rgb(45, 45, 58);
     color: rgb(102, 166, 196);
 }
@@ -33,23 +44,58 @@ header {
 h1 {
     color: rgb(45, 45, 58);
     background-color: rgb(102, 166, 196);
-    font-size: 200%;
+    font-size: 300%;
+    margin: 20px 0 5px 0;
 }
 
+h2 {
+    width: 49%;
+    text-align: right;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 .flexSection {
     display: flex;
+    max-width: 99%;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flexRatio1 {
+    flex: 1;
+    width: 20%;
+}
+
+.flexRatio4 {
+    flex: 4;
+    width: 80%;
 }
 .subtitle {
+
 
 }
 
 .cardLarge {
-
+    width:100%;
+    height: 200px;
+    flex: 2;
+    padding: 10px;
+    height: 900px;
+    border: 10px solid rgb(102, 166, 196);
 }
 
 .cardSmall {
-
+    width: 50%;
+    height: 100px;
+    border: 10px solid rgb(102, 166, 196);
+    flex: 1;
+    padding: 10px;
+    height: 300px;
 }
 
 #card1 {

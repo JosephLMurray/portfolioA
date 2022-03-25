@@ -9,93 +9,96 @@
     <title>Joseph Murray Portfolio</title>
 </head>
 <body>
-    <header>
-        <!--top left name-->
-        <h1>Joseph Murray, Jr.</h1>
-        <!--top right nav bar-->
-        <nav>
-            <ul>
-                <li>
-                    <a href="#aboutMe">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contactMe">Contact Me</a>
-                </li>
-                <li>
-                    <a href="#resume">Resume</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!--subtitle with background image-->
-    <section class="subtitle">
-        <h3></h3>
-    </section>
-    <!--about me flexbox-->
-    <section id="aboutMe" class="flexSection">
-        <!--about me-->
-        <div>
-            <h2>About Me</h2>
-        </div>
-        <!--actual words-->
-        <div>
-            <p></p>
-            <p></p>
-        </div>
-    </section>
-    <!--work flexbox-->
-    <section id="work" class="flexSection">
-        <!--work-->
-        <div>
-            <h2>Work</h2>
-        </div>
-        <!--project links with background images-->
-        <div>
-            <!--5 images flexbox-->
-            <div id="card1" class="cardLarge">
-                <h3></h3>
-                <p></p>
+    <div class="container">
+        <header>
+            <!--top left name-->
+            <h1>Joseph Murray, Jr.</h1>
+            <!--top right nav bar-->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#aboutMe">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#contactMe">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="#resume">Resume</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--subtitle with background image-->
+        <section class="subtitle">
+            <h3>Cool Subtitle</h3>
+        </section>
+        <!--about me flexbox-->
+        <section id="aboutMe" class="flexSection">
+            <!--about me-->
+            <div class="flexRatio1">
+                <h2>About Me</h2>
             </div>
-            <div id="card2" class="cardSmall">
-                <h3></h3>
-                <p></p>
+            <!--actual words-->
+            <div class="flexRatio4">
+                <p>Thank you for taking the time to visit my portfolio. My name is Joseph Murray, Jr and I'm a product of the UCF Coding Bootcamp program. Prior to that, I spent 15+ years in I.T. doing everything from onsite training to forensic accounting for Point of Sale software.</p>
+                <p>I believe that learning never stops, and that it is a life long and worthy pursuit. I enjoy logic puzzles, am an avid boardgame player, and in my spare time I coach little league baseball for my 2 sons when I'm not in the gym lifting heavy objects and putting them back down again.</p>
             </div>
-            <div id="card3" class="cardSmall">
-                <h3></h3>
-                <p></p>
+        </section>
+        <!--work flexbox-->
+        <section id="work" class="flexSection">
+            <!--work-->
+            <div class="flexRatio1">
+                <h2>Work</h2>
             </div>
-            <div id="card4" class="cardSmall">
-                <h3></h3>
-                <p></p>
+            <!--project links with background images-->
+            <div class="flexColumn flexRatio4">
+                <!--5 images flexbox-->
+                <div>
+                    <div id="card1" class="cardLarge">
+                        <h3>Surf Report</h3>
+                        <p>MERN Stack</p>
+                    </div>
+                </div>
+                <div class="flexSection">
+                    <div id="card2" class="cardSmall">
+                        <h3>LED Wall</h3>
+                        <p>Node/IoT</p>
+                    </div>
+                    <div id="card3" class="cardSmall">
+                        <h3>Calculator</h3>
+                        <p>React/JavaScript/CSS</p>
+                    </div>
+                    <div id="card4" class="cardSmall">
+                        <h3>Pastel Puzzles</h3>
+                        <p>MERN Stack</p>
+                    </div>
+                    <div id="card5" class="cardSmall">
+                        <h3>Run Buddy</h3>
+                        <p>HTML/CSS</p>
+                    </div>
+                </div>
+            </div>        
+        </section>
+        <!--contact me footer-->
+        <footer id="contactMe" class="flexSection">
+            <!--contact me-->
+            <div class="flexRatio1">
+                <h2>Contact Me</h2>
             </div>
-            <div id="card5" class="cardSmall">
-                <h3></h3>
-                <p></p>
+            <!--contact info list-->
+            <div class="flexRatio4">
+                <ul>
+                    <li>phone</li>
+                    <li>email</li>
+                    <li>GitHub</li>
+                    <li>Twitter</li>
+                    <li>Spotify</li>
+                </ul>
             </div>
-        </div>        
-    </section>
-    <!--contact me footer-->
-    <footer id="contactMe" class="flexSection">
-        <!--contact me-->
-        <div>
-            <h2>Contact Me</h2>
-        </div>
-        <!--contact info list-->
-        <div>
-            <ul>
-                <li>phone</li>
-                <li>email</li>
-                <li>GitHub</li>
-                <li>Twitter</li>
-                <li>Spotify</li>
-            </ul>
-        </div>
-    </footer>
-
-
-    
+        </footer>
+    </div>
 </body>
 </html>
