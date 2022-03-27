@@ -1,3 +1,10 @@
+:root {
+    --tea: #876445;
+    --milk-tea: #CA965C;
+    --honey: #EEC373;
+    --cream: #F4DFBA;
+}
+
 * {
     font-family: Helvetica, sans-serif;
 }
@@ -12,7 +19,7 @@
 
 a {
     font-weight: bold;
-    color: rgb(102, 166, 196);
+    color: cre;
     border-bottom: 3px;
     padding: 20px;
 }
@@ -81,7 +88,7 @@ h2 {
 }
 
 .cardLarge {
-    width:100%;
+    width: 75vw;
     height: 200px;
     flex: 2;
     padding: 10px;
@@ -90,7 +97,7 @@ h2 {
 }
 
 .cardSmall {
-    width: 50%;
+    width: 75vw;
     height: 100px;
     border: 10px solid rgb(102, 166, 196);
     flex: 1;
