@@ -6,7 +6,7 @@
 }
 
 * {
-    font-family: 'Permanent Marker', cursive;
+    font-family:'Patrick Hand', cursive;;
 }
 
 .container {
@@ -123,6 +123,7 @@ h3 {
     padding: .5rem;
 }
 .cardLarge {
+    position: relative;
     flex: 1 0 96%;
     height: 30rem;
     border: 1rem solid var(--honey);
@@ -131,12 +132,15 @@ h3 {
     box-shadow: rgba(133, 130, 130, 0.815) .2rem .2rem .2rem;
 }
 
-.cardLarge h3 {
+/* .cardLarge h3 {
     display: inline;
     position: absolute;
     top: 20rem;
-}
+    left: 5rem;
+} */
+
 .cardSmall {
+    position: relative;
     flex: 0 0 48%;
     height: 10rem;
     border: 1rem solid var(--honey);
@@ -144,6 +148,7 @@ h3 {
     margin: .7rem;
     box-shadow: rgba(133, 130, 130, 0.815) .2rem .2rem .2rem;
 }
+
 
 #card1 {
     background-image: url(/Assets/images/surf.jpg); /* The image used */
