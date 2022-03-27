@@ -21,10 +21,18 @@
 a {
     font-weight: bold;
     font-size: 200%;
+} 
+nav a {
     color:var(--honey);
     background-color: var(--tea);
     border-bottom: 3px;
     padding: 20px;
+}
+
+footer a{
+    color:#CA965C;
+    background-color: var(--cream);
+    text-align: justify;
 }
 
 p {
@@ -37,11 +45,13 @@ nav {
     display: flex;
     flex-flow: row flex-end;
     margin-bottom: 2rem;
+    background-color: var(--tea);
 }
 
 li {
     display: inline;
     text-align: right;
+    background-color: var(--tea);
 }
 
 header {
@@ -65,11 +75,14 @@ h1 {
 h2 {
     font-size: 300%;
     text-align: right;
+    padding: .5rem;
 }
 
 h3 {
+    position: relative;
     background-color: var(--tea);
     color: var(--honey);
+    font-size: 200%;
 }
 
 .flex-section {
@@ -102,36 +115,49 @@ h3 {
     flex: 0 0 20%;
     color: var(--milk-tea);
     border-right: solid .3rem var(--milk-tea);
+    border-bottom: solid .3rem var(--milk-tea);
+    border-radius: .5rem;
 }
 
 .flex-article {
     flex: 1 0 80%;
+    padding: .5rem;
 }
 .cardLarge {
-    flex: 1 0 100%;
+    flex: 1 0 96%;
     height: 30rem;
     border: 1rem solid var(--honey);
+    border-radius: 1rem;
+    margin: 1rem;
+    box-shadow: rgba(133, 130, 130, 0.815) .2rem .2rem .2rem;
 }
 
+.cardLarge h3 {
+    display: inline;
+    position: absolute;
+    top: 20rem;
+}
 .cardSmall {
-    flex: 0 0 50%;
+    flex: 0 0 48%;
     height: 10rem;
     border: 1rem solid var(--honey);
-    padding: 1rem;
+    border-radius: 1rem;
+    margin: .7rem;
+    box-shadow: rgba(133, 130, 130, 0.815) .2rem .2rem .2rem;
 }
 
 #card1 {
-    background-image: url(/Assets/images/wood.jpg); /* The image used */
-    background-color: var(--cream); /* Used if the image is unavailable */
-    height: 10rem; /* You must set a specified height */
+    background-image: url(/Assets/images/surf.jpg); /* The image used */
+    background-color: var(--tea); /* Used if the image is unavailable */
+    height: 30rem; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; 
 }
 
 #card2 {
-    background-image: url(/Assets/images/wood.jpg); /* The image used */
-    background-color: var(--cream); /* Used if the image is unavailable */
+    background-image: url(/Assets/images/led.jpg); /* The image used */
+    background-color: var(--tea); /* Used if the image is unavailable */
     height: 10rem; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -139,8 +165,8 @@ h3 {
 }
 
 #card3 {
-    background-image: url(/Assets/images/wood.jpg); /* The image used */
-    background-color: var(--cream); /* Used if the image is unavailable */
+    background-image: url(/Assets/images/calc.jpg); /* The image used */
+    background-color:var(--tea); /* Used if the image is unavailable */
     height: 10rem; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -148,8 +174,8 @@ h3 {
 }
 
 #card4 {
-    background-image: url(/Assets/images/wood.jpg); /* The image used */
-    background-color: var(--cream); /* Used if the image is unavailable */
+    background-image: url(/Assets/images/pastel.jpg); /* The image used */
+    background-color: var(--tea); /* Used if the image is unavailable */
     height: 10rem; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -157,8 +183,8 @@ h3 {
 }
 
 #card5 {
-    background-image: url(/Assets/images/wood.jpg); /* The image used */
-    background-color: var(--cream); /* Used if the image is unavailable */
+    background-image: url(/Assets/images/run.jpg); /* The image used */
+    background-color: var(--tea); /* Used if the image is unavailable */
     height: 10rem; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
