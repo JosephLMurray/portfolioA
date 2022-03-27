@@ -2,11 +2,12 @@
     --tea: #876445;
     --milk-tea: #CA965C;
     --honey: #EEC373;
-    --cream: #F4DFBA;
+    --cream: #f7f1e6;
 }
 
 * {
     font-family: Helvetica, sans-serif;
+    background-color: var(--cream);
 }
 
 .container {
@@ -21,12 +22,16 @@ a {
     font-weight: bold;
     font-size: 200%;
     color:var(--honey);
+    background-color: var(--tea);
     border-bottom: 3px;
     padding: 20px;
 }
 
 p {
     text-align: left;
+    font-size: 125%;
+    line-height: 1.5;
+    margin: 2rem;
 }
 nav {
     display: flex;
@@ -58,7 +63,7 @@ h1 {
 }
 
 h2 {
-    width: 49%;
+    font-size: 300%;
     text-align: right;
 }
 
@@ -67,18 +72,13 @@ h3 {
     color: var(--honey);
 }
 
-.flex-column {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
 .flex-section {
     display: flex;
     max-width: 99%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: .5rem;
 }
 
 .subtitle {
@@ -97,22 +97,26 @@ h3 {
     background-size: cover; /* Resize the background image to cover the entire container */
 }
 
+.flex-aside {
+    flex: 0 0 20%;
+    color: var(--milk-tea);
+    border-right: solid .3rem var(--milk-tea);
+}
+
+.flex-article {
+    flex: 1 0 80%;
+}
 .cardLarge {
-    width: 75vw;
-    height: 200px;
-    flex: 2;
-    padding: 10px;
-    height: 900px;
-    border: 10px solid rgb(102, 166, 196);
+    flex: 1 0 100%;
+    height: 30rem;
+    border: 1rem solid var(--honey);
 }
 
 .cardSmall {
-    width: 75vw;
-    height: 100px;
-    border: 10px solid rgb(102, 166, 196);
-    flex: 1;
-    padding: 10px;
-    height: 300px;
+    flex: 0 0 50%;
+    height: 10rem;
+    border: 1rem solid var(--honey);
+    padding: 1rem;
 }
 
 #card1 {
