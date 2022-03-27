@@ -79,6 +79,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: .5rem;
+    position: relative;
 }
 
 .subtitle {
@@ -120,21 +121,46 @@ h3 {
 }
 
 #card1 {
-
+    background-image: url(/Assets/images/wood.jpg); /* The image used */
+    background-color: var(--cream); /* Used if the image is unavailable */
+    height: 10rem; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
 }
 
 #card2 {
-    
+    background-image: url(/Assets/images/wood.jpg); /* The image used */
+    background-color: var(--cream); /* Used if the image is unavailable */
+    height: 10rem; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
 }
 
 #card3 {
-    
+    background-image: url(/Assets/images/wood.jpg); /* The image used */
+    background-color: var(--cream); /* Used if the image is unavailable */
+    height: 10rem; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
 }
 
 #card4 {
-    
+    background-image: url(/Assets/images/wood.jpg); /* The image used */
+    background-color: var(--cream); /* Used if the image is unavailable */
+    height: 10rem; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
 }
 
 #card5 {
-    
+    background-image: url(/Assets/images/wood.jpg); /* The image used */
+    background-color: var(--cream); /* Used if the image is unavailable */
+    height: 10rem; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
 }
