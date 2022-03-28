@@ -25,7 +25,7 @@ li a {
 } 
 nav {
     flex: 1 1 80%;
-    justify-content: flex-end;
+    justify-content: flex-endgit;
 }
 
 nav a {
@@ -115,7 +115,7 @@ figure {
 }
 
 .hero {
-    background-image: url(/Assets/images/wood.jpg); /* The image used */
+    background-image: url(./images/wood.jpg); /* The image used */
     background-color: var(--cream); /* Used if the image is unavailable */
     height: 10rem; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -182,7 +182,7 @@ figure {
 }
 
 #card1 {
-    background-image: url(/Assets/images/surf.jpg); /* The image used */
+    background-image: url(./images/surf.jpg); /* The image used */
     background-color: var(--tea); /* Used if the image is unavailable */
     height: 30rem; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -191,7 +191,7 @@ figure {
 }
 
 #card2 {
-    background-image: url(/Assets/images/led.jpg); /* The image used */
+    background-image: url(./images/led.jpg); /* The image used */
     background-color: var(--tea); /* Used if the image is unavailable */
     height: 10rem; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -200,7 +200,7 @@ figure {
 }
 
 #card3 {
-    background-image: url(/Assets/images/calc.jpg); /* The image used */
+    background-image: url(./images/run.jpg); /* The image used */
     background-color:var(--tea); /* Used if the image is unavailable */
     height: 10rem; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -209,7 +209,7 @@ figure {
 }
 
 #card4 {
-    background-image: url(/Assets/images/pastel.jpg); /* The image used */
+    background-image: url(./images/pastel.jpg); /* The image used */
     background-color: var(--tea); /* Used if the image is unavailable */
     height: 10rem; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -218,7 +218,7 @@ figure {
 }
 
 #card5 {
-    background-image: url(/Assets/images/run.jpg); /* The image used */
+    background-image: url(./images/calc.jpg); /* The image used */
     background-color: var(--tea); /* Used if the image is unavailable */
     height: 10rem; /* You must set a specified height */
     background-position: center; /* Center the image */
