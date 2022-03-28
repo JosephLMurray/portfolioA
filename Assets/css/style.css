@@ -23,6 +23,11 @@ li a {
     font-weight: bold;
     font-size: 200%;
 } 
+nav {
+    flex: 1 1 80%;
+    justify-content: flex-end;
+}
+
 nav a {
     color:var(--honey);
     background-color: var(--tea);
@@ -46,7 +51,6 @@ ul {
     display: flex;
     flex-flow: row flex-end;
     margin-bottom: 2rem;
-    /* background-color: var(--tea); */
 }
 
 li {
@@ -120,7 +124,7 @@ figure {
 }
 
 .flex-aside {
-    flex: 0 0 20%;
+    flex: 1 1 20%;
     color: var(--milk-tea);
     border-right: solid .3rem var(--milk-tea);
     border-bottom: solid .3rem var(--milk-tea);
@@ -128,10 +132,18 @@ figure {
 }
 
 .flex-article {
-    flex: 1 0 80%;
+    flex: 1 1 80%;
     padding: .5rem;
 }
 
+.contact-links {
+    display: flex;
+}
+
+.contact-links li {
+    width: 100%;
+    text-align: center;
+}
 .cardLarge {
     position: relative;
     flex: 1 0 96%;
@@ -168,7 +180,6 @@ figure {
     margin: .7rem;
     box-shadow: rgba(133, 130, 130, 0.815) .2rem .2rem .2rem;
 }
-
 
 #card1 {
     background-image: url(/Assets/images/surf.jpg); /* The image used */
