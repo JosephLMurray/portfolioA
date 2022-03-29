@@ -6,7 +6,7 @@
 }
 
 * {
-    font-family:'Patrick Hand', cursive;;
+    font-family:'Prata', serif;
 }
 
 .container {
@@ -17,6 +17,7 @@
     flex-direction: column;
     margin: 0;
     background-color: var(--cream);
+    line-height: normal;
   }
 
 li a {
@@ -24,8 +25,8 @@ li a {
     font-size: 200%;
 } 
 nav {
-    flex: 1 1 80%;
-    justify-content: flex-endgit;
+    flex: 4 0 80%;
+    justify-content: flex-end;
 }
 
 nav a {
@@ -64,17 +65,19 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    height: 6rem;
     margin-left: 0;
     background-color: var(--tea);
     color: var(--honey);
 }
 
 h1 {
+    width: 100%;
+    flex: 1 1 20%;
     color: var(--tea);
     background-color: var(--honey);
-    font-size: 300%;
-    margin: 1rem 0 2rem 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 275%;
+    margin: 2rem .5rem 2rem 0;
     border-radius: 0 .25rem .25rem 0;  
 }
 
@@ -107,7 +110,7 @@ figure {
 
 .subtitle {
     position: absolute;
-    top: 13rem;
+    top: 6rem;
     right: 1rem;
     font-size: 200%;
     border-radius: .25rem;
