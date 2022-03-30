@@ -49,13 +49,11 @@ p {
     margin: 2rem;
 }
 ul {
-    display: flex;
-    flex-flow: row flex-end;
     margin-bottom: 2rem;
 }
 
 li {
-    display: inline;
+    display: inline-flex;
     text-align: right;
 }
 
@@ -141,15 +139,13 @@ figure {
 
 .contact-links {
     display: flex;
+    justify-content: space-between;
+    margin: .5rem;
 }
 
-.contact-links li {
-    width: 100%;
-    text-align: center;
-}
 .cardLarge {
     position: relative;
-    flex: 1 0 96%;
+    flex: 1 1 96%;
     height: 30rem;
     border: 1rem solid var(--honey);
     border-radius: .5rem;
@@ -174,7 +170,7 @@ figure {
 
 .cardSmall {
     position: relative;
-    flex: 0 0 48%;
+    flex: 1 1 48%;
     height: 10rem;
     background-color: var(--honey);
     color: var(--tea);
@@ -229,3 +225,24 @@ figure {
     background-size: cover; 
 }
 
+@media screen and (max-width: 768px) {
+    nav a {
+        padding: .5rem;
+        font-size: 150%;
+    }
+
+@media screen and (max-width: 992px) {
+    .cardSmall {
+        flex: 1 1 96%;
+    }
+    
+    .contact-links {
+        display: flex;
+        justify-content: space-between;
+        margin: 0.5rem;
+        font-size: 75%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
+}
