@@ -76,7 +76,7 @@ h1 {
     font-family: 'Pacifico', cursive;
     font-size: 275%;
     margin: 2rem .5rem 2rem 0;
-    border-radius: 0 .25rem .25rem 0;  
+    
 }
 
 h2 {
@@ -96,6 +96,19 @@ figure {
     position: relative;
 }
 
+.avatar {
+    height: 8rem;
+    width: 8rem;
+    border: solid 0.5rem var(--honey);
+    border-radius: 50%;
+    margin: 0.5rem 0px 0.5rem -0.68rem;
+}
+
+.name-tag {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 .flex-section {
     display: flex;
     max-width: 99%;
@@ -235,7 +248,7 @@ figure {
     .cardSmall {
         flex: 1 1 96%;
     }
-    
+
     .contact-links {
         display: flex;
         justify-content: space-between;
