@@ -194,7 +194,7 @@ figure {
 }
 
 #card1 {
-    background-image: url(./images/surf.jpg); /* The image used */
+    background-image: url(./images/thatgooddirt.png); /* The image used */
     background-color: var(--tea); /* Used if the image is unavailable */
     height: 30rem; /* You must set a specified height */
     background-position: center; /* Center the image */
